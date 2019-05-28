@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-eureka
+server:
+  port: 8701
+
+eureka:
+  client:
+    #是否向服务注册中心注册自己
+    register-with-eureka: false
+    #是否启用获取服务注册信息,因为这是一个单点的Eureka Server,不需要同步其他的Eureka Server节点的数据，故而设为false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8701/eureka
+  server:
+    enable-self-preservation: false

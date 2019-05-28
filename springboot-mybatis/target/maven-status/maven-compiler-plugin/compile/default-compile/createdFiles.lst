@@ -1,0 +1,4 @@
+com\cxy\test\MybatisApplication.class
+com\cxy\test\model\User.class
+com\cxy\test\controller\UserController.class
+com\cxy\test\mapper\UserMapper.class
