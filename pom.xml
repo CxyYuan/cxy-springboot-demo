@@ -32,7 +32,7 @@
             <lombok.version>1.18.6</lombok.version>
             <druid.version>1.1.16</druid.version>
             <mysql.version>8.0.15</mysql.version>
-            <fastjson.version>1.2.47</fastjson.version>
+            <fastjson.version>1.2.83</fastjson.version>
             <jwt.version>3.8.0</jwt.version>
             <jedis.version>2.9.0</jedis.version>
             <spring-retry.version>1.2.4.RELEASE</spring-retry.version>
